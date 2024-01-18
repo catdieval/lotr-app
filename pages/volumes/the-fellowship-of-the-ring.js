@@ -4,7 +4,7 @@ import { volumes } from "../../resources/lib/data.js";
 
 export default function VolumeDetail() {
   const volumeIndex = volumes.findIndex(
-    ({ slug }) => slug === "the-return-of-the-king"
+    ({ slug }) => slug === "the-fellowship-of-the-ring"
   );
 
   const volume = volumes[volumeIndex];
